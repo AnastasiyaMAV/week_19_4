@@ -1,0 +1,8 @@
+.container{
+    display: grid;
+    max-width: 100%;
+    grid-template-areas:
+        "formData formData formData";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Практика №19, задания №4</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="image/icon.png" type="image/png">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="card" style="width: 18rem; margin-top: 20px;">
+            <label style="font-weight: bold;">Введите следующие данные</label>
+            <div class="form-group">
+                <label for="emailInput">Электронный адрес:</label>
+                <input type="text" class="form-control" id="emailInput" placeholder="nickname@mail.ru">
+            </div>
+            <div class="form-group">
+                <label for="domenInput">Домен:</label>
+                <input type="text" class="form-control" id="domenInput" placeholder="domen.ru">
+            </div>
+            <div class="form-group">
+                <label for="dataRegDomenInput">Дату регистрации домена:</label>
+                <input type="text" class="form-control" id="dataRegDomenInput" placeholder="14.10.2021">
+            </div>
+            <div class="form-group">
+                <label for="telInput">Телефон:</label>
+                <input type="text" class="form-control" id="telInput" placeholder="+7(***)***-**-**">
+            </div>
+            <button type="button" class="btn btn-primary" id="sendStandardData" style="margin-bottom: 10px;">Стандартная версия класса</button>
+            <button type="button" class="btn btn-primary" id="sendStaticData" style="margin-bottom: 10px;">Статическая версия класса</button>
+            <button type="button" class="btn btn-primary" id="deleteData">Сброс</button>
+        </form>
+
+        <form class="card" style="width: 18rem; margin-top: 20px;">
+            <label style="font-weight: bold;">Стандартная версия класса</label>
+            <div class="form-group">
+                <label for="emailInput">Электронный адрес:</label>
+                <input type="text" class="form-control" id="emailStandardInput" placeholder="" disabled>
+            </div>
+            <div class="form-group">
+                <label for="domenInput">Домен:</label>
+                <input type="text" class="form-control" id="domenStandardInput" placeholder="" disabled>
+            </div>
+            <div class="form-group">
+                <label for="dataRegDomenInput">Дата регистрации домена:</label>
+                <input type="text" class="form-control" id="dataRegDomenStandardInput" placeholder="" disabled>
+            </div>
+            <div class="form-group">
+                <label for="telInput">Телефон:</label>
+                <input type="text" class="form-control" id="telStandardInput" placeholder="" disabled>
+            </div>
+            <button type="button" class="btn btn-primary" id="deleteStandartData" style="margin-top: 49px;">Сброс</button>
+        </form>
+
+        <form class="card" style="width: 18rem; margin-top: 20px;">
+            <label style="font-weight: bold;">Статическая версия класса</label>
+            <div class="form-group">
+                <label for="emailInput">Электронный адрес:</label>
+                <input type="text" class="form-control" id="emailStaticInput" placeholder="" disabled>
+            </div>
+            <div class="form-group">
+                <label for="domenInput">Домен:</label>
+                <input type="text" class="form-control" id="domenStaticInput" placeholder="" disabled>
+            </div>
+            <div class="form-group">
+                <label for="dataRegDomenInput">Дата регистрации домена:</label>
+                <input type="text" class="form-control" id="dataRegDomenStaticInput" placeholder="" disabled>
+            </div>
+            <div class="form-group">
+                <label for="telInput">Телефон:</label>
+                <input type="text" class="form-control" id="telStaticInput" placeholder="" disabled>
+            </div>
+            <button type="button" class="btn btn-primary" id="deleteStaticData" style="margin-top: 49px;">Сброс</button>
+        </form>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
